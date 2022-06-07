@@ -1,0 +1,81 @@
+.topcontainer {
+  border: solid 10px;
+  padding: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.middle-container {
+  margin-left: 260px;
+  border: solid 20px;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.bottomcontainer {
+  margin-top: 0;
+  margin-left: 500px;
+  border: solid 10px;
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+<div class="container">
+  <div class="topcontainer">
+    <!<img src="images/cloud.png" alt="">!>
+    <h1>I'm Aman Singh</h1>
+    <p >A <span class="pro">pro</span>grammer</p>
+    <!<img src="images/mountain.png" alt=""!>
+  </div>
+  <div class="middle-container">
+   <p>currently mastering javascript</p>
+  </div>
+  <div class="bottomcontainer">
+    <p>programming is very interesting</p>
+  </div>
+</div>
+
+styles
+
+.topcontainer {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  background-color: yellow;
+  position: relative;
+  height: 600px;
+  width: 600px;
+}
+
+p {
+  margin: 0 auto 0;
+}
+
+.middle-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+}
+
+.bottomcontainer {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
